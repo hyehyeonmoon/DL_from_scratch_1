@@ -1,8 +1,3 @@
-# Ch03_Neural network
-
-생성일: 2021년 1월 1일 오후 3:50
-태그: Hyehyeon Moon
-
 ## [3장 신경망]
 
 신경망은 각 층의 뉴런들이 다음 층의 뉴런으로 신호를 전달한다는 점에서 앞 장의 퍼셉트론과 같습니다. 하지만 다음 뉴런으로 갈 때 신호를 변화시키는 활성화 함수에 차이가 있었습니다. (시모이드 함수, ReLU 함수)
@@ -21,22 +16,16 @@
 - 입력 데이터를 묶은 것을 배치라 하며, 추론 처리를 이 배치 단위로 진행하면 결과를 훨씬 빠르게 얻을 수 있다.
 
 ## [파일 설명]
-
-step_function : 계단 함수를 구현한 코드입니다.
-
-sigmoid : 시그모이드 함수를 구현한 코드입니다.
-
-relu : ReLU 함수를 구현한 코드입니다.
-
-neural net : 3층 신경망을 구현한 코드입니다.
-
-mnist_show : MNIST 데이터셋을 읽어와 훈련 데이터 중 0번째 이미지를 화면에 출력합니다.
-
-mnist_single sample : 신경망으로 손글씨 숫자 그림을 추론합니다.
-
-neuralnet_mnist_batch : mnist_single sample에 배치 처리 기능을 더했습니다.
-
-sample_weight.pkl : 미리 학습해둔 가종치 매개변수의 값들입니다.
+| File | Description |
+|:--   |:--   |
+|step_function | 계단 함수를 구현한 코드입니다. |
+|sigmoid | 시그모이드 함수를 구현한 코드입니다. |
+|relu | ReLU 함수를 구현한 코드입니다. |
+|neural net | 3층 신경망을 구현한 코드입니다. |
+|mnist_show | MNIST 데이터셋을 읽어와 훈련 데이터 중 0번째 이미지를 화면에 출력합니다. |
+|mnist_single sample | 신경망으로 손글씨 숫자 그림을 추론합니다. |
+|neuralnet_mnist_batch | mnist_single sample에 배치 처리 기능을 더했습니다. |
+|sample_weight.pkl | 미리 학습해둔 가종치 매개변수의 값들입니다. |
 
 .ipynb 파일의 오류를 대비해 .py 파일을 따로 폴더에 저장해 놓았습니다.
 
