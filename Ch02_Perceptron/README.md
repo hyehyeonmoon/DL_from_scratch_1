@@ -26,8 +26,6 @@
 
 ⇒선형 분리 불가능한 공간에서 선형 구분 가능한 공간으로의 특징 공간 변화
 
-- 의 변화
-- 선의 생성
 <p align="center">
 <img src="https://user-images.githubusercontent.com/55529617/103615414-e4960a80-4f6d-11eb-96b7-c2c8724c9586.png" width=500 height=280>
 </p>
