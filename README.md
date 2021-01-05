@@ -19,7 +19,6 @@
 
 박준영 [Github 주소](https://github.com/pjy970108)
 
-백승우 [Github 주소](https://github.com/Beck-Pro)
 
 ## [Notion]
 
