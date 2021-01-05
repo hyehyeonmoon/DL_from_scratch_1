@@ -36,7 +36,7 @@
 - 선형 함수 : f(net)=net
 - 비선형 함수 : step function, sigmoid, tanh, ReLU,  Leaky ReLU, PReLU, ELU, Maxout,
 <p align="center">
-<img src="https://user-images.githubusercontent.com/55529617/103612981-f3c68980-4f68-11eb-8a9d-44ec1326c823.png" align="center" width="400" height="300"> 
+<img src="https://user-images.githubusercontent.com/55529617/103612981-f3c68980-4f68-11eb-8a9d-44ec1326c823.png" align="center" width="500" height="300"> 
 </p>
 
 ### 1. 활성화 함수로 선형 함수를 사용하지 않는 이유
@@ -45,7 +45,7 @@
 
 ### 2. Sigmoid의 단점
 
-<img src="https://user-images.githubusercontent.com/55529617/103612983-f45f2000-4f68-11eb-91f6-41db783a9a9c.png" width="300" height="120"> 
+<img src="https://user-images.githubusercontent.com/55529617/103612983-f45f2000-4f68-11eb-91f6-41db783a9a9c.png" width="300" height="100"> 
 
 - Gradient Vanishing 현상이 발생
 
@@ -66,27 +66,27 @@
 
 ### 3. tanh(Hyperbolic tangent function)의 단점
 
-<img src="https://user-images.githubusercontent.com/55529617/103612987-f5904d00-4f68-11eb-9926-0510af3986ec.png" width="300" height="180"> 
+<img src="https://user-images.githubusercontent.com/55529617/103612987-f5904d00-4f68-11eb-9926-0510af3986ec.png" width="300" height="110"> 
 
 - tanh 함수는 함수의 중심값을 0으로 옮겨 sigmoid의 최적화 과정이 느려지는 문제를 해결합니다.
 - 하지만, gradient vanishing 문제는 여전히 남아있습니다.
 
 ### 4. ReLU
 
-<img src="https://user-images.githubusercontent.com/55529617/103612988-f5904d00-4f68-11eb-80f6-5d06f6ef218e.png" width="300" height="60"> 
+<img src="https://user-images.githubusercontent.com/55529617/103612988-f5904d00-4f68-11eb-80f6-5d06f6ef218e.png" width="300" height="50"> 
 
 - 연산비용이 크지 않고, 구현이 매우 간단함→sigmoid, tanh 함수와 비교시 학습이 빨라집니다.
 - x<0인 값들에 대해서는 기울기가 0이기 때문에 뉴런이 죽을 수 있는 단점이 존재합니다.
 
 ### 5. Leaky ReLU
 
-<img src="https://user-images.githubusercontent.com/55529617/103612989-f628e380-4f68-11eb-880e-a8b7992c7b77.png" width="300" height="60"> 
+<img src="https://user-images.githubusercontent.com/55529617/103612989-f628e380-4f68-11eb-880e-a8b7992c7b77.png" width="300" height="50"> 
 
 - ReLU의 뉴런이 죽는 현상을 해결하기 위해 음수의 x값에 대해 0.01을 곱해주어 음수 x값의 미분값이 0이 되지 않게 만들어줍니다.
 
 ### 6. PReLU
 
-<img src="https://user-images.githubusercontent.com/55529617/103612991-f628e380-4f68-11eb-987e-9ee5c2b2ac75.png" width="300" height="60"> 
+<img src="https://user-images.githubusercontent.com/55529617/103612991-f628e380-4f68-11eb-987e-9ee5c2b2ac75.png" width="300" height="50"> 
 
 - Leakly ReLU와 거의 유사하지만 새로운 파라미터 α 를 추가하여 x<0에서 기울기를 학습할 수 있게 합니다.
 
