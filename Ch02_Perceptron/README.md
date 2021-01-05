@@ -26,9 +26,7 @@
 
 ⇒선형 분리 불가능한 공간에서 선형 구분 가능한 공간으로의 특징 공간 변화
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/55529617/103615414-e4960a80-4f6d-11eb-96b7-c2c8724c9586.png" width=500 height=280>
-</p>
+(선형 분리 가능 공간 : 하나의 직선이나 평면, 초평면으로 모든 sample의 class를 분리할 수 있을 때)
 
 (XOR gate)를 통해 자세히 알아봅시다.
 
