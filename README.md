@@ -11,15 +11,15 @@
 
 ## [구성원]
 
-문혜현(대표) [Github 주소](https://github.com/angelfox4)
+문혜현(스터디장) [Github 주소](https://github.com/angelfox4)
 
-김상현
+김상현 [Github 주소](https://github.com/shkim960520)
 
-김재이
+김재이 [Github 주소](https://github.com/jaykimm99)
 
-박준영
+박준영 [Github 주소](https://github.com/pjy970108)
 
-백승우
+백승우 [Github 주소](https://github.com/Beck-Pro)
 
 ## [Notion]
 
