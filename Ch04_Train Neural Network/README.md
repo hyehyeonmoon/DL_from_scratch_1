@@ -38,13 +38,11 @@ train_neuralnet: 2층 신경망을 이용해 신경망 학습을 구현한 코�
 
 손실함수로 Mean Square Error와 Cross Entropy Error를 사용하는 이유와 차이점
 
-$MSE = \frac 1 2 \Sigma_{k} (y_{k},t_{k})^2$
-
-$$CEE = -\Sigma_{k} t_{k}log(y_{k})$$
+![mse_cee](https://user-images.githubusercontent.com/68596881/103987770-5a99ac00-51d0-11eb-989f-a22c1a1a1686.png)
 
 1. 오차역전파법(Backpropagation) 관점
 
-    $$L(f_{\theta}(x),y) = \Sigma_{i}L(f_{\theta}(x_{i}),y_{i})$$
+![Loss](https://user-images.githubusercontent.com/68596881/103988029-c11eca00-51d0-11eb-9f0c-40a06e56900e.png)
 
 - 오차역전파법의 가정을 만족하는 함수
     - 가정1: Total loss of DNN over training samples is the sum of loss for each training sample
@@ -54,7 +52,8 @@ $$CEE = -\Sigma_{k} t_{k}log(y_{k})$$
 
 2. 최대 가능도(Maximum Likelihood) 관점
 
-$$p(y|f_{\theta}(x))$$
+![mle](https://user-images.githubusercontent.com/68596881/103988115-e3184c80-51d0-11eb-8d5f-245492e057be.png)
+
 
 네트워크 출력값이 주어졌을 때, y가 나올 확률이 최대가 되는 가중치를 찾는 방법입니다.
 
@@ -64,13 +63,15 @@ $$p(y|f_{\theta}(x))$$
 
 가우시안 분포를 따를때의 예시
 
-$$\theta^{*} = argmin_{\theta}[-log(p(y|f_{\theta}(x)))]$$
+![theta](https://user-images.githubusercontent.com/68596881/103988220-0cd17380-51d1-11eb-8cc5-a050056d763a.png)
+
 
 오차역전파의 가정을 만족시키기 위해 log-likelihood를 사용합니다.
 
 - i.i.d 조건하에 곱으로 표현되는 것을 log를 사용하여 합으로 표현하는 방법으로 바꿔 오차역전파의 가정을 만족시킵니다.
 
-$$-log(p(y|f_{\theta}(x))) = -\Sigma_{i} log(p(y_{i}|f_{\theta}(x_{i})))$$
+![negativelog](https://user-images.githubusercontent.com/68596881/103988303-31c5e680-51d1-11eb-8d51-3dd4e80a3452.png)
+
 
 ![21F4F3A4-EB42-4BD6-87FD-4E9185B6CF76](https://user-images.githubusercontent.com/68596881/103986765-a77c8300-51ce-11eb-8d7b-d7aa6c7968a7.jpeg)
 
