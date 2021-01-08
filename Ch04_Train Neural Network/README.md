@@ -38,7 +38,9 @@ train_neuralnet: 2층 신경망을 이용해 신경망 학습을 구현한 코�
 
 손실함수로 Mean Square Error와 Cross Entropy Error를 사용하는 이유와 차이점
 
-$$MSE = \frac 1 2 \Sigma_{k} (y_{k},t_{k})^2$$
+$$
+MSE = \frac 1 2 \Sigma_{k} (y_{k},t_{k})^2
+$$
 
 $$CEE = -\Sigma_{k} t_{k}log(y_{k})$$
 
