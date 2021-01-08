@@ -72,7 +72,7 @@ $$\theta^{*} = argmin_{\theta}[-log(p(y|f_{\theta}(x)))]$$
 
 $$-log(p(y|f_{\theta}(x))) = -\Sigma_{i} log(p(y_{i}|f_{\theta}(x_{i})))$$
 
-![Ch_04%20Train%20Neural%20Network%20322b210b07ee433f937cee9efe1fce4c/21F4F3A4-EB42-4BD6-87FD-4E9185B6CF76.jpeg](Ch_04%20Train%20Neural%20Network%20322b210b07ee433f937cee9efe1fce4c/21F4F3A4-EB42-4BD6-87FD-4E9185B6CF76.jpeg)
+![21F4F3A4-EB42-4BD6-87FD-4E9185B6CF76](https://user-images.githubusercontent.com/68596881/103986765-a77c8300-51ce-11eb-8d7b-d7aa6c7968a7.jpeg)
 
 일변량 분포일때 식 전개 → 다변량 분포에서도 비슷한 식으로 전개가능
 
