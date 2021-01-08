@@ -60,7 +60,7 @@ $$p(y|f_{\theta}(x))$$
 
 → 해당 확률분포가 어떤 확률분포를 따를지 가정해야합니다. ex) 가우시안 분포, 베르누이 분포
 
-![Ch_04%20Train%20Neural%20Network%20322b210b07ee433f937cee9efe1fce4c/70583D1E-8213-43EC-B4F8-7268BB555E8B.jpeg](Ch_04%20Train%20Neural%20Network%20322b210b07ee433f937cee9efe1fce4c/70583D1E-8213-43EC-B4F8-7268BB555E8B.jpeg)
+![70583D1E-8213-43EC-B4F8-7268BB555E8B](https://user-images.githubusercontent.com/68596881/103986597-63897e00-51ce-11eb-8fd9-c3ed3071308d.jpeg)
 
 가우시안 분포를 따를때의 예시
 
