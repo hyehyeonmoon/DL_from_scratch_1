@@ -55,19 +55,19 @@ hyperparameter_optimization : 하이퍼파라미터를 최적화하는 코드입
 
  배치 단위로 학습을 하면 각 층에서 입력으로 받게 되는 feature가 연산을 거친 뒤 활성화 함수에 적용되는데, 이는 연산 전후에 데이터 분포가 달라질 수 있다는 문제점을 가진다. 즉, 배치 간의 데이터가 상이하다고 말할 수 있다.
 
-![Ch06%20Related%20Skills%2035fc8372f9054bfdbcd602222f91f20b/Untitled.png](Ch06%20Related%20Skills%2035fc8372f9054bfdbcd602222f91f20b/Untitled.png)
+![initial](https://user-images.githubusercontent.com/66687384/104709417-43c00000-5762-11eb-945e-f300422bfe10.png)
 
-![Ch06%20Related%20Skills%2035fc8372f9054bfdbcd602222f91f20b/Untitled%201.png](Ch06%20Related%20Skills%2035fc8372f9054bfdbcd602222f91f20b/Untitled%201.png)
+![initial](https://user-images.githubusercontent.com/66687384/104709420-44589680-5762-11eb-8030-92af7301a3dc.png)
 
  배치 정규화는 이 문제를 해결할 수 있다.  다음 그림을 보면 배치 단위나 layer에 ㄸ라서 입력값의 분포가 모두 다르지만, 정규화를 통해 분포를 평균 0, 표준편차 1로 조정한다.
 
-![Ch06%20Related%20Skills%2035fc8372f9054bfdbcd602222f91f20b/Untitled%202.png](Ch06%20Related%20Skills%2035fc8372f9054bfdbcd602222f91f20b/Untitled%202.png)
+![initial](https://user-images.githubusercontent.com/66687384/104709422-44f12d00-5762-11eb-842f-6ae35b116a8b.png)
 
 - **결론**: 배치 단위로 학습할 때의 문제점인 내부 공변량 변화는 배치 정규화에서는 해결 가능하다.
 
 ### 2. 배치 정규화 알고리즘 상세 설명
 
-![Ch06%20Related%20Skills%2035fc8372f9054bfdbcd602222f91f20b/Untitled%203.png](Ch06%20Related%20Skills%2035fc8372f9054bfdbcd602222f91f20b/Untitled%203.png)
+![initial](https://user-images.githubusercontent.com/66687384/104709423-4589c380-5762-11eb-94e5-48e929dd557a.png)
 
 ### 3. 배치 정규화의 한계
 
