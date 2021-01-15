@@ -91,3 +91,4 @@ hyperparameter_optimization : 하이퍼파라미터를 최적화하는 코드입
 [배치 정규화(Batch Normalization)](https://gaussian37.github.io/dl-concept-batchnorm/)
 
 [[딥러닝 기본] Deep Learning 학습최적화 개선](https://warm-uk.tistory.com/52)
+[RNN 개념](https://dreamgonfly.github.io/blog/understanding-rnn/)
