@@ -42,4 +42,8 @@ CNN의 구현모델을 위의 사진과 같이 체계적으로 짤 수 있었다
 |visualize_filter| 합성곱 1번째 층의 가중치를 학습 전과 후로 나눠 시각화|
 |params.pkl| 미리 학습된 가중치 값들|
 
+## [심화]
+심화개념으로 CNN의 역전파와 “Convolution-ReLU-Pooling-Affine-ReLU-Affine-Softmax” 순의 계층에서 일어나는 데이터의 형태 변화에 대해서 자세하게 다루었다.
+pdf 파일로 상단의 github에 올려져 있는 SimpleConvNet_detail.pdf, convnet_backward.pdf를 다운받아 참고하기 바란다.
+
 
