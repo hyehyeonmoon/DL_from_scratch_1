@@ -6,7 +6,7 @@
 ## [Curriculum]
 
 |Date|Topic|Description|Presenters|Slides|
-|:-- |:-- |:-- |:-- |                         |
+|:-- |:-- |:-- |:-- |:-- |
 |210105|Ch02_Perceptron       |퍼셉트론 개념과 게이트 구현    |문혜현|[Slides](https://github.com/hyehyeonmoon/DL_from_scratch_1/tree/main/Ch02_Perceptron)|
 |210105|Ch03_Nerual Network       |신경망, 활성화 함수, 다차원 배열 개념 및 구현|문혜현|[Slides](https://github.com/hyehyeonmoon/DL_from_scratch_1/tree/main/Ch03_Neural%20Network)|
 |210108|Ch04_Train Neural Network       |손실함수, 수치 미분, 경사하강법 등을 이용한 학습알고리즘 구현 |김상현|[Slides](https://github.com/hyehyeonmoon/DL_from_scratch_1/tree/main/Ch04_Train%20Neural%20Network)|
